@@ -6,8 +6,10 @@ namespace PlaneBird.Controllers
     public class PlayerController : MonoBehaviour
     {
         [SerializeField] private float thrust = 100.0f;
+        [SerializeField] private float coolDown = 4f;
         private Rigidbody2D _rigidbody;
         private DefaultInputActions _defaultInputActions;
+        private float _counter;
 
         private void Awake()
         {
@@ -19,13 +21,20 @@ namespace PlaneBird.Controllers
 
         private void OnInputFire(InputAction.CallbackContext obj)
         {
+            if (_counter < coolDown)
+            {
+                return;
+            }
+
             _rigidbody.linearVelocity = Vector2.zero;
-            _rigidbody.AddForce(Vector2.up * thrust,  ForceMode2D.Impulse);
+            _rigidbody.AddForce(Vector2.up * thrust, ForceMode2D.Impulse);
+            _counter = 0.0f;
         }
 
         // Update is called once per frame
         private void Update()
         {
+            _counter += Time.deltaTime;
         }
     }
 }
