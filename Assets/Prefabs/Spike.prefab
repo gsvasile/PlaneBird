@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8325374814767782237}
   - component: {fileID: 7809443654245034473}
+  - component: {fileID: 210240194741885921}
   m_Layer: 0
   m_Name: Spike
   m_TagString: Untagged
@@ -46,9 +47,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64c98cab95e3da244894f6449359c755, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  moveSpeed: 1.5
   height: 2.5
   destroyTime: 20
+--- !u!114 &210240194741885921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267407876029092838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28c42078957d0ae4583c3de80589dbd1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlaneBird.Mover
+  moveSpeed: 1.5
 --- !u!1 &2765559110771975611
 GameObject:
   m_ObjectHideFlags: 0
