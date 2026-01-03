@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7106ef5-8115-47be-b545-b54f130fa27f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Spike.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Spike.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GroundCheck.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GroundCheck.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mover.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Spritesheet/planes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Spritesheet/planes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Spritesheet/sheet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Spritesheet/sheet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,11 +40,13 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/493b407efcb64dddad59f28bb0b831d3212400/46/4150bd3c/Object.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/DefaultVolumeProfile.asset" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Fonts.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PlaneAnimation.anim" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Prefabs.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Game.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mover.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Spike.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sprites/PNG/UI/buttonLarge.png.meta" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -114,6 +123,7 @@
       <workItem from="1713751093104" duration="200000" />
       <workItem from="1766994309709" duration="6851000" />
       <workItem from="1767131709512" duration="2645000" />
+      <workItem from="1767425020288" duration="3045000" />
     </task>
     <task id="LOCAL-00001" summary="Initial check-in, git ignore">
       <option name="closed" value="true" />
@@ -187,7 +197,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767134405998</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added a game over panel. Adjusted the player hit box. Added some game over logic. Just need to hook up the game over panel">
+      <option name="closed" value="true" />
+      <created>1767426539320</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1767426539320</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,7 +230,8 @@
     <MESSAGE value="Updated project files" />
     <MESSAGE value="Made the ground move and reuse a ground section when it is out of view." />
     <MESSAGE value="Moved the ground check" />
-    <option name="LAST_COMMIT_MESSAGE" value="Moved the ground check" />
+    <MESSAGE value="Added a game over panel. Adjusted the player hit box. Added some game over logic. Just need to hook up the game over panel" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a game over panel. Adjusted the player hit box. Added some game over logic. Just need to hook up the game over panel" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

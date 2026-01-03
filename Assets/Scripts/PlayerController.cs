@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -6,8 +5,10 @@ namespace PlaneBird.Controllers
 {
     public class PlayerController : MonoBehaviour
     {
+        [SerializeField] private GameManager gameManager;
         [SerializeField] private float thrust = 100.0f;
-        [SerializeField] private float coolDown = 4f;
+        [SerializeField] private float coolDown = 3.5f;
+
         private Rigidbody2D _rigidbody;
         private DefaultInputActions _defaultInputActions;
         private float _counter;
@@ -38,8 +39,18 @@ namespace PlaneBird.Controllers
             {
                 return;
             }
-            
-            Time.timeScale = 0;
+
+            gameManager.GameOver();
+        }
+
+        private void OnTriggerEnter2D(Collider2D other)
+        {
+            if (!other.CompareTag("Points"))
+            {
+                return;
+            }
+
+            gameManager.AddPoints();
         }
 
         // Update is called once per frame

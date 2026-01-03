@@ -13,11 +13,6 @@ namespace PlaneBird
             InvokeRepeating(nameof(SpawnSpike), 0f, spawnRate);
         }
 
-        // Update is called once per frame
-        private void Update()
-        {
-        }
-
         private void SpawnSpike()
         {
             Instantiate(spikePrefab, transform.position, transform.rotation, transform);
