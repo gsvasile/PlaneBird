@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -29,6 +30,16 @@ namespace PlaneBird.Controllers
             _rigidbody.linearVelocity = Vector2.zero;
             _rigidbody.AddForce(Vector2.up * thrust, ForceMode2D.Impulse);
             _counter = 0.0f;
+        }
+
+        private void OnCollisionEnter2D(Collision2D other)
+        {
+            if (!other.gameObject.CompareTag("Spike") && !other.gameObject.CompareTag("Ground"))
+            {
+                return;
+            }
+            
+            Time.timeScale = 0;
         }
 
         // Update is called once per frame

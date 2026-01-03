@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7106ef5-8115-47be-b545-b54f130fa27f" name="Changes" comment="" />
+    <list default="true" id="e7106ef5-8115-47be-b545-b54f130fa27f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,9 +32,11 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/493b407efcb64dddad59f28bb0b831d3212400/46/4150bd3c/Object.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DefaultVolumeProfile.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PlaneAnimation.anim" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Prefabs.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Game.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mover.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Spike.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -109,6 +113,7 @@
       <updated>1713751090857</updated>
       <workItem from="1713751093104" duration="200000" />
       <workItem from="1766994309709" duration="6851000" />
+      <workItem from="1767131709512" duration="2645000" />
     </task>
     <task id="LOCAL-00001" summary="Initial check-in, git ignore">
       <option name="closed" value="true" />
@@ -158,7 +163,31 @@
       <option name="project" value="LOCAL" />
       <updated>1767001188989</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Updated project files">
+      <option name="closed" value="true" />
+      <created>1767133073295</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1767133073295</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Made the ground move and reuse a ground section when it is out of view.">
+      <option name="closed" value="true" />
+      <created>1767134347688</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1767134347688</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Moved the ground check">
+      <option name="closed" value="true" />
+      <created>1767134405998</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1767134405998</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,7 +209,10 @@
     <MESSAGE value="Added a cooldown to how often the player can thrust up." />
     <MESSAGE value="Made the spike(s) a prefab and created a spawner to spawn the spikes at intervals." />
     <MESSAGE value="Added an animation for the plane's propeller." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added an animation for the plane's propeller." />
+    <MESSAGE value="Updated project files" />
+    <MESSAGE value="Made the ground move and reuse a ground section when it is out of view." />
+    <MESSAGE value="Moved the ground check" />
+    <option name="LAST_COMMIT_MESSAGE" value="Moved the ground check" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
